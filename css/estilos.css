@@ -1,0 +1,172 @@
+	/* Colores
+
+	#496773 - Azul
+	#F2D0A7 - Marrón Claro
+	#A67244 - Marrón
+	#F24822 - Naranja
+	#0D0D0D - Negro
+
+	*/
+
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+
+body {
+	background: #496773;
+}
+
+.hoja_cv {
+	display: flex;
+	background: #0D0D0D;
+	width: 75%;
+	height: 100%;
+	margin: 20px auto;
+	border: 3px solid black;
+	border-radius: 5px;
+	box-shadow: 10px 10px 40px;
+}
+
+.contenido {
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+	height: 95%;
+	padding: 10px;
+	justify-content: center;
+}
+
+
+.navegacion {
+	background: #F24822;
+	width: 100%;
+	padding: 0 0px 5px;
+	text-align: center;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.navegacion h2 {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #496773;
+	text-align: center;
+	padding: 10px;
+	color: #ddd;
+}
+
+.navegacion #Alberto {
+	width: 50%;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	font-size: 28px;
+}
+
+.navegacion .foto-carnet {
+	background: #F2D0A7;
+	display: inline-block;
+	width: 144px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.navegacion ul {
+	display: inline-block;
+	align-items: center;
+	padding: 10px;
+	margin: 10px 0 5px 0;
+	list-style-type: none;
+}
+
+.navegacion ul li a{
+	color: white;
+}
+
+.navegacion ul li a:hover {
+	color: #496773;
+}
+
+section {
+	padding: 15px;
+	border: 3px solid #A67244;
+}
+
+.datosPersonales{
+	background: #F2D0A7;
+}
+
+.perfilProfesional{
+	background: #F2D090;
+}
+
+.experienciaProfesional{
+	background: #F2D0A7;
+}
+
+.formacionAcademica{
+	background: #F2D090;
+}
+
+.habilidades{
+	background: #F2D0A7;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 40px;
+}
+
+h3 {
+	background: #A67244;
+	color: #EEE;
+	margin-bottom: 10px;
+}
+
+p, b, i {
+	padding: 3px;
+}
+
+footer {
+	width: 95vw;
+	background: #0D0D0D;
+	margin: 0 auto;
+}
+
+footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 95vw;
+	height: 5vh;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+footer ul li a {
+	color: #EEE;
+	padding: 0 5px;
+	text-decoration: none;
+}
+
+footer ul li a:hover {
+	color: #F24822;
+}
+
+/*js*/
+	.detalles {
+		display: none;
+	}
+
+	.mostrar {
+		display: block;
+	}	
+
+	.ver {
+		display: none;
+	}
+
+	.ver_mas {
+		display: block;
+	}
+/*js*/
